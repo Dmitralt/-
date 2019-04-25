@@ -8,6 +8,11 @@ var AraysNumber = Number(readline.question("how much Arrays?"));
 var ARR = str1.split(" ");
 var NewARR = [];
 
+function sortNumber(a,b)
+ {
+    return a - b;
+}
+
 function sum(Array)
  {
     var sum = 0;
@@ -21,12 +26,11 @@ for (var key in ARR)
 {
     ARR[key] = Number(ARR[key]);
 }
-ARR.sort();
+
+ARR.sort(sortNumber);
 ARR.reverse();
 console.log(ARR);
 var medianIndex;
-
-
 
 for (var i = 0; i < AraysNumber; i++) 
 {
@@ -57,4 +61,3 @@ for (var j = 0; j < NewARR.length; j++)
     console.log(j + "NewARR sum =" + sum(NewARR[j]));
 
 }
-
