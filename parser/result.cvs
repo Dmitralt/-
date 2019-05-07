@@ -1,0 +1,8 @@
+192.168.0.5 connected at 6.05.2019 05:10:10:| disconected at 6.05.2019 07:25:42: by reason  ${reason1}
+192.168.0.5 connected at 6.05.2019 05:10:13:  reconnect
+192.168.0.5 connected at 6.05.2019 06:12:24:| disconected at 6.05.2019 07:25:45: by reason  ${reason2}
+192.168.0.6 connected at 6.05.2019 05:10:16:| disconected at 6.05.2019 07:25:47: by reason  ${reason1}
+192.168.0.4 connected at 6.05.2019 05:10:13:| disconected at 6.05.2019 07:25:49: by reason  ${reason4}
+----------------no disconnect or reconnect------
+192.168.0.6 connected at 6.05.2019 05:10:18:
+192.168.0.7 connected at 6.05.2019 05:10:18:
